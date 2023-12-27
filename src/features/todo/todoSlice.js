@@ -6,7 +6,7 @@ export const todoSlice = createSlice({
         todos: [{id: 1, text: "Hello world"}],
       },
     reducers: {
-        // action.payload contains the value that we use while dispatching. check in AddTodo.jsx and Todos.jsx
+        // action.payload contains the value that we provide while dispatching. Check in AddTodo.jsx and Todos.jsx
         // what value we are passing while dispatching. 
         addTodo: (state, action) => {
             const todo = {
